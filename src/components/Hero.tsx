@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       id="home"
       className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-pink-50 pt-16 relative overflow-hidden"
     >
-      <img src="./hero-event.jpg" alt="" className="absolute" />
+      <img src="./hero-event.jpg" alt="" className="absolute h-full object-cover" />
 
       <div className="absolute inset-0 bg-black/20"></div>
 
